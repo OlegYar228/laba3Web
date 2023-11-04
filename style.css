@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+textarea,
+button,
+input {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: inherit;
+}
+
+h1 {
+  color: var(--grayscale-black, #000);
+  /* Poppins/Bold/56 */
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 78.4px */
+}
+
+h2 {
+  color: var(--grayscale-50, #333);
+  /* Poppins/SemiBold/24 */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 33.6px */
+}
+
+body {
+  color: var(--grayscale-black, #000);
+  text-align: center;
+  /* Poppins/Regular/18 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+.main__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .main__header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main__container .main__header p {
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+.main__container .main__header img {
+  width: 100%;
+  height: auto;
+}
+.main__container .main__body {
+  margin-top: 100px;
+  display: flex;
+  text-align: left;
+  color: var(--grayscale-10, #9c9c9c);
+}
+.main__container .main__body h2 {
+  padding-bottom: 24px;
+}
+.main__container .main__body p:not(:last-child) {
+  padding-bottom: 30px;
+}
+.main__container .main__body .project {
+  max-width: 50%;
+}
+.main__container .main__body .project .project__text .project__info {
+  margin-top: 60px;
+}
+.main__container .main__body .project .project__text .project__info span:not(:last-child) {
+  margin-right: 80px;
+}
+.main__container .main__body .designe {
+  width: 50%;
+  margin-left: 32px;
+}
+.main__container .main__gallery {
+  margin-top: 82px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 32px;
+}
+.main__container .main__gallery .gallery__element {
+  grid-column: span 1;
+  grid-row: span 1;
+  max-width: 584px;
+  height: auto;
+}
+.main__container .main__gallery .big {
+  grid-column: span 2;
+  max-width: 1200px;
+  height: auto;
+  flex-shrink: 0;
+}/*# sourceMappingURL=style.css.map */
